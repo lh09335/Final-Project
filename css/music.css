@@ -1,0 +1,28 @@
+img {
+  width: 256px;
+  height: 256px;
+}
+.hub {
+  width: 200px;
+  height: 40px;
+  background-color: #969696;
+  text-align: center;
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  font-size: 10px;
+  border-radius: 10%;
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+.hub:hover {
+  background-color: #3c3c3c;
+}
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-size: 20px;
+  color: white;
+}

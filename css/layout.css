@@ -1,0 +1,18 @@
+body {
+  background-image: url("../image/wood.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+iframe {
+  outline: 5px solid black;
+}
+.works {
+  width: 90%;
+}
+.music {
+  width: 100%;
+}
+.centered {
+  text-align: center;
+}
