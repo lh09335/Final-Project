@@ -1,4 +1,4 @@
-ul {
+.ul-nav { /* Navigation Bar */
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -8,16 +8,17 @@ ul {
 
 }
 
-li {
+.li-nav { /* Navigation Bar Position */
   float: left;
 }
-li a {
+.li-nav a { /* Navigation Text Decoration */
   display: block;
   color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-family: monospace;
 }
-li a:hover {
+.li-nav a:hover { /* Navigation Color Change */
   background-color: #3c3c3c;
 }

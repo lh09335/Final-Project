@@ -1,22 +1,23 @@
-body {
+body { /*Text color */
   color: black;
 }
-div {
+div { /*Resume Control */
   width: 60%;
   margin: auto;
   padding: 20px;
   text-align: left;
   background-color: white;
 }
-.mid {
-  text-align: center;
-}
-.head {
+.head { /*Header Color */
   color: rgb(204, 64, 24);
 }
-h3 {
+h3 { /*Name font size */
   font-size: 30px;
 }
-h5 {
+h5 { /*Topic Font Size */
   font-size: 20px;
+}
+img { /*Image Size */
+  width: 250px;
+  height: 250px;
 }
