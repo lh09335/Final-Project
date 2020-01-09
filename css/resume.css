@@ -1,12 +1,13 @@
 body { /*Text color */
   color: black;
 }
-div { /*Resume Control */
-  width: 60%;
+.resume { /*Resume Control */
+  width: 70%;
   margin: auto;
   padding: 20px;
   text-align: left;
   background-color: white;
+  outline: 2px solid #cc4018;
 }
 .head { /*Header Color */
   color: rgb(204, 64, 24);
@@ -21,3 +22,4 @@ img { /*Image Size */
   width: 250px;
   height: 250px;
 }
+.oranline
