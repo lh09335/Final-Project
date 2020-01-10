@@ -1,10 +1,20 @@
 * {
   box-sizing: border-box;
 }
-
+.startitle {
+  width:500px;
+  height: 300px;
+  padding: 5%;
+}
+.movie {
+  width: 160px;
+  height: 240px;
+}
+td {
+  font-size: 18px;
+}
 /* Set a background color */
 body {
-  background-color: #19529C;
   font-family: Helvetica, sans-serif;
 }
 

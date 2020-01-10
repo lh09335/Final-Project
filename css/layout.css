@@ -19,8 +19,9 @@ iframe {
 h1 {
   text-align: center;
   font-size: 50px;
-  color: black;
-  text-shadow: 2px 2px 4px #000000
+  color: #DC143C;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: 'Montserrat';
 }
 td {
   background-color: white;
@@ -28,9 +29,11 @@ td {
   font-size: 20px;
 }
 .subhead {
+  color: #F0E68C;
   text-align: center;
   font-size: 35px;
   text-shadow: 2px 2px 4px #000000;
+  font-family: 'Montserrat';
 }
 .col {
   width: 70%;
@@ -46,5 +49,11 @@ td {
 .info {
   width: 70%;
   margin: auto;
+  line-height: 20px;
+}
+.hubpic {
+  width: 250px;
+  height: 250px;
+  outline: 3px solid #cc4018;
   line-height: 20px;
 }
