@@ -4,63 +4,60 @@ body { /* Base Background Settings */
   background-size: cover;
   background-attachment: fixed;
 }
-iframe {
+iframe { /*Give frames an outline*/
   outline: 5px solid black;
 }
-.works {
+.works { /*Sets width for best work*/
   width: 90%;
 }
-.music {
+.music { /*Sets distance for music*/
   width: 100%;
 }
-.centered {
+.centered { /*Centers text*/
   text-align: center;
 }
-h1 {
+h1 { /*Sets titles settings*/
   text-align: center;
   font-size: 50px;
   color: #DC143C;
   text-shadow: 2px 2px 4px #000000;
   font-family: 'Montserrat';
 }
-td {
+td { /* Sets music titles background*/
   background-color: white;
   outline: black;
   font-size: 20px;
 }
-.subhead {
+.subhead { /*Changes the subheading*/
   color: #F0E68C;
   text-align: center;
   font-size: 35px;
   text-shadow: 2px 2px 4px #000000;
   font-family: 'Montserrat';
 }
-.col {
+.col { /*Sets background of about me*/
   width: 70%;
   background-color: white;
   margin: auto;
 }
-.genre {
-  color:
-}
-.dent {
+.dent { /*Text indent*/
   text-indent: 20px;
 }
-.info {
+.info { /* Sets history's line spacing*/
   width: 70%;
   margin: auto;
   line-height: 20px;
 }
-.hubpic {
+.hubpic { /* Sets home page img background*/
   width: 250px;
   height: 250px;
   outline: 3px solid #cc4018;
   line-height: 20px;
 }
-.centertable {
+.centertable { /*centers tables */
   margin-left: auto;
   margin-right: auto;
 }
-.wide {
+.wide { /*Sets the wideness on home*/
     width: 80%;
 }

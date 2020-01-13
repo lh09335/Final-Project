@@ -1,33 +1,33 @@
 * {
   box-sizing: border-box;
 }
-.startitle {
+.startitle { /*Title for page*/
   width:500px;
   height: 300px;
   padding: 5%;
   display: block;
   margin: auto;
 }
-.movie {
+.movie { /*Image settings*/
   width: 160px;
   height: 240px;
 }
-td {
+td { /* sets font size for boxes*/
   font-size: 18px;
 }
-/* Set a background color */
+/* Sets font */
 body {
   font-family: Helvetica, sans-serif;
 }
 
-/* The actual timeline (the vertical ruler) */
+/* The timeline (vertical ruler) */
 .timeline {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-/* The actual timeline (the vertical ruler) */
+/* The timeline (vertical ruler) */
 .timeline::after {
   content: '';
   position: absolute;
@@ -39,7 +39,7 @@ body {
   margin-left: -3px;
 }
 
-/* Container around content */
+/* The container around content */
 .container {
   padding: 10px 50px;
   position: relative;
@@ -47,7 +47,7 @@ body {
   width: 50%;
 }
 
-/* The circles on the timeline */
+/* Circles in the timeline */
 .container::after {
   content: '';
   position: absolute;
@@ -61,17 +61,17 @@ body {
   z-index: 1;
 }
 
-/* Place the container to the left */
+/* Places container to the left */
 .left {
   left: 0;
 }
 
-/* Place the container to the right */
+/* Places container to the right */
 .right {
   left: 50%;
 }
 
-/* Add arrows to the left container (pointing right) */
+/* Arrows to the left container ( that are pointing right) */
 .left::before {
   content: " ";
   height: 0;
@@ -85,7 +85,7 @@ body {
   border-color: transparent transparent transparent white;
 }
 
-/* Add arrows to the right container (pointing left) */
+/* Arrows to the right container (that are pointing left) */
 .right::before {
   content: " ";
   height: 0;
@@ -99,12 +99,12 @@ body {
   border-color: transparent white transparent transparent;
 }
 
-/* Fix the circle for containers on the right side */
+/* Fixes the circle for containers on the right side */
 .right::after {
   left: -16px;
 }
 
-/* The actual content */
+/* The contents properties */
 .content {
   padding: 20px 30px;
   background-color: white;
