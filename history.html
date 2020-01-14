@@ -5,11 +5,29 @@
     <title>History</title>
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/button.css">
     <style>
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 </style>
   </head>
   <body>
+    <button onclick="topFunction()" id="Btn" title="Go to top">Top of Page</button>
+
+    <script>
+    var mybutton = document.getElementById("Btn");
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
     <ul class="ul-nav">
       <li class="li-nav"><a href="index.html">Home</a></li>
       <li class="li-nav"><a href="resume.html">Resume</a></li>
@@ -47,6 +65,7 @@
 <p class="dent info">The HTML specification published by the WHATWG is not identical to this specification. At the time of this publication, the main differences were that the WHATWG version included features not included in this W3C version: some features have been omitted, but may be considered for future revisions of HTML beyond HTML5; and other features were omitted because at the W3C they are published as separate specifications.</p>
 <br>
 <p class="dent info">A separate document has been published by the W3C HTML working group to document the differences between this specification and the language described in the HTML4 specification.</p>
+<h5><a href="http://amyhissom.com/HTML5-CSS3/history.html" target="_blank"> Original Article Can Be Found Here</a></h5>
 <h1>The History of CSS</h1>
 <p class="dent info">"Like HTML, CSS is standardized by the W3 consortium. CSS is an open, independent and freely usable standard. As with HTML, a working group exists for CSS who concerns itself with development of the standard. This is being done in accordance with W3C rules.</p>
 <br>
@@ -55,6 +74,7 @@
 <p class="dent info">The idea behind it was to seperate presentation and content of a web site. The advantage of this approach is that updates and changes to the presentation need only be applied once (to the stylesheet) to affect all pages. Especially large sites can achieve significant time savings. In order to enforce this separation of concerns, the W3C has deprecated the &lt;font&gt; tag in HTML 4. Newer (X)HTML versions will deprecate other tags in a similar vein.</p>
 <br>
 <p class="dent info">CSS stylesheets are an immediate addition to HTML. CSS is a language to define format properties of HTML or XML tags. HTML has reached the end of it's shelf life and is not being developed further. XHTML is the new standard instead. XHTML reformulates HTML with XML syntax while at the same time getting rid of presentational markup. XHTML only contains content, presentation is the domain of a CSS stylesheet. This allows for different stylesheets for different output formats such as print, aural or small devices. Search machines on the other hand have an easier job if they are only presented with content markup."</p>
+<h5><a href="http://amyhissom.com/HTML5-CSS3/history.html" target="_blank"> Original Article Can Be Found Here</a></h5>
 <h1>The History of JavaScript</h1>
 <p class="dent info">JavaScript was created by Brendan Eich in 1995 during his time at Netscape Communications. It was inspired by Java, Scheme and Self.</p>
 <br>
@@ -105,6 +125,7 @@
 <p class="dent info">As we will see in later posts, criticisms of JavaScript are frequently insubstantial expressions of unfamiliarity or syntactic “taste”, by programmers more familiar with other languages.</p>
 <br>
 <p class="dent info">This is not to say the language is without flaws: the continuing lack of a decimal number primitive is unfortunate.</p>
+<h5><a href="https://medium.com/@benastontweet/lesson-1a-the-history-of-javascript-8c1ce3bffb17" target="_blank"> Original Article Can Be Found Here</a></h5>
 </div>
   </body>
 </html>

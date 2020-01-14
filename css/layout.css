@@ -61,3 +61,6 @@ td { /* Sets music titles background*/
 .wide { /*Sets the wideness on home*/
     width: 80%;
 }
+h5 { /* Centers Citations */
+  text-align: center;
+}
